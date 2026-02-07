@@ -18,6 +18,10 @@ header {
     z-index: 100;
 }
 
+header a {
+    display: inline-block; /* Add this as a NEW rule */
+}
+
 .logo {
     max-width: 300px;
     width: 100%;
