@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'ReceiptFont';
+    src: url('./receipt-font.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +26,7 @@ header {
 }
 
 header a {
-    display: inline-block; /* Add this as a NEW rule */
+    display: inline-block;
 }
 
 .logo {
@@ -42,6 +49,7 @@ main {
     padding: 40px;
     color: #666;
     font-size: 18px;
+    font-family: 'ReceiptFont', 'Courier New', monospace;
 }
 
 #photo-container {
